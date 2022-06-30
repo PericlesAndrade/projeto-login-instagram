@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+}
+
+body {
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+    justify-content: center;
+    
+    
+}
+.flex-container {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin: 5% 5% 0 5%;
+}
+
+.img-cel img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login .perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    white-space: nowrap;
+    width: 350px;
+    margin-left: 50%;
+    background-color: #ffffff;
+    border: 1px solid #0095f6;
+   
+}
+
+.img-logo img {
+    display: flex;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.img-perfil img {
+    display: block;
+    width: 40%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-perfil h4 {
+    display: flex;
+    border-radius: 8px;
+    width: 50%;
+    background-color: #0095f6;
+    margin: auto;
+    padding: 3px 40px;
+    text-align: center;
+}
+
+.img-perfil h4 a{
+    text-decoration: none;
+    color: #ffffff;  
+}
+
+.img-perfil p{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.img-perfil p a{
+    text-decoration: none;
+}
+
+
+.alterar-conta {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 1px solid #0095f6;
+    width: 350px;
+    margin-left: 50%;
+    margin-top: 10px;
+    text-align: center;
+    
+}
+
+.alterar-conta a{
+   text-decoration: none;
+}
+
+.aplicativos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    width: 350px;
+    margin-left: 50%;
+    margin-top: 20px;
+}
+
+.aplicativos img {
+    display: flex;
+    width: 145px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+}
+
+.lista-itens {
+    display: flex;
+    max-width: 260px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.itens ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.itens ul li {
+    display: flex;
+    text-decoration: none;
+    margin: 8px;
+    text-align: center;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #189ef7;
+    white-space: nowrap;
+}
+
+.itens-creditos ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row-reverse;
+}
+
+.itens-creditos ul li {
+    text-decoration: none;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #189ef7;
+    margin: 1px;
+}

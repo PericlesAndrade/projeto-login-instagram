@@ -19,7 +19,7 @@
 1. \- HTML5
 2. \- CSS3
 
-![](C:\Users\WCS\Desktop\ESTUDO\Projeto Instagram\src\imagens\imagem final.JPG)
 
+![image](https://user-images.githubusercontent.com/101152294/176607980-8b6aa06c-26c8-41cd-adfc-c9c81a0df199.png)
 
 
